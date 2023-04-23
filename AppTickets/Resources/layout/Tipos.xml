@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <Toolbar
+    android:minHeight="?android:attr/actionBarSize"
+    android:background="?android:attr/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Menu"/>
+    <Button
+        android:text="Macarena"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMacarena" />
+    <Button
+        android:text="Marquesina"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMarquesina" />
+    <Button
+        android:text="Burda"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBurda" />
+    <Button
+        android:text="Rayas"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRayas" />
+</LinearLayout>
